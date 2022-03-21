@@ -47,6 +47,17 @@ Created Github Workflow
     - Configured GitHub Actions secrets AWS_ACCESS_KEY_ID & AWS_SECRET_ACCESS_KEY
 - Deployed
 
+
+ from constructs import Construct
+ from aws_cdk import App, Stack                    # core constructs
+ from aws_cdk import aws_s3 as s3                  # stable module
+ import aws_cdk.aws_codestar_alpha as codestar     # experimental module
+
+
+
+pip install aws
+pip install contructs
+pip install aws_cdk.constructs
 Project was written for CDKv1, abort!
 
 https://aws.amazon.com/blogs/containers/create-a-ci-cd-pipeline-for-amazon-ecs-with-github-actions-and-aws-codebuild-tests/
